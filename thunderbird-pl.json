@@ -5,12 +5,12 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.mozilla.org/?product=thunderbird-60.8.0-SSL&os=win&lang=pl#/thunderbird-setup_x64.7z",
+            "url": "https://download.mozilla.org/?product=thunderbird-60.8.0-SSL&os=win64&lang=pl#/thunderbird-setup_x64.7z",
             "hash": "sha512:654941acd4268b6576a232117effacfca7ffbad4bc1e9be1b9a369e00411f4fe327ce57870f2996d385eb967b91958a3f977be0aa15e4d93835317f37b685627"
         },
         "32bit": {
             "url": "https://download.mozilla.org/?product=thunderbird-60.8.0-SSL&os=win&lang=pl#/thunderbird-setup.7z",
-            "hash": "sha512:654941acd4268b6576a232117effacfca7ffbad4bc1e9be1b9a369e00411f4fe327ce57870f2996d385eb967b91958a3f977be0aa15e4d93835317f37b685627"
+            "hash": "sha512:c344ee6dfe56c737bf9e2552c9129e329f0f100a465849ae3e67f489eb0cd27c3b5f0cf4fbeb00cabbc4cfb4b66ae1add53eda498a14e743c0b8f84ea8bb11e5"
         }
     },
     "extract_dir": "core",
