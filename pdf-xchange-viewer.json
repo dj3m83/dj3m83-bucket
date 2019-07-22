@@ -6,5 +6,11 @@
     "depends":  "",
     "homepage":  "https://www.tracker-software.com/product/pdf-xchange-viewer/",
     "hash":  "",
-    "bin":  "PDFXCview.exe"
+    "bin":  "PDFXCview.exe",
+    "shortcuts": [
+        [
+            "PDFXCview.exe",
+            "PDF-XChanfe Viewer"
+        ]
+    ]
 }
