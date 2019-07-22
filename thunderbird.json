@@ -1,0 +1,46 @@
+{
+    "description": "Thunderbird is a free email application that’s easy to set up and customize - and it’s loaded with great features!",
+    "homepage": "https://www.mozilla.org/pl/thunderbird/",
+    "version": "60.8.0",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.mozilla.org/?product=thunderbird-60.8.0-SSL&os=win&lang=pl#/thunderbird-setup_x64.7z",
+            "hash": "sha512:654941acd4268b6576a232117effacfca7ffbad4bc1e9be1b9a369e00411f4fe327ce57870f2996d385eb967b91958a3f977be0aa15e4d93835317f37b685627"
+        },
+        "32bit": {
+            "url": "https://download.mozilla.org/?product=thunderbird-60.8.0-SSL&os=win&lang=pl#/thunderbird-setup.7z",
+            "hash": "sha512:654941acd4268b6576a232117effacfca7ffbad4bc1e9be1b9a369e00411f4fe327ce57870f2996d385eb967b91958a3f977be0aa15e4d93835317f37b685627"
+        }
+    },
+    "extract_dir": "core",
+    "bin": "thunderbird.exe",
+    "shortcuts": [
+        [
+            "thunderbird.exe",
+            "Mozilla Thunderbird"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.mozilla.org/pl/thunderbird/all/",
+        "re": "thunderbird-([\\d.]+)-SSL&os=win&lang=pl"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.mozilla.org/?product=thunderbird-$version-SSL&os=win64&lang=pl#/thunderbird-setup_x64.7z",
+                "hash": {
+                    "find": "([a-fA-F0-9]{128})\\s+(?:win64/pl/Thunderbird Setup ([\\d.]+).exe)",
+                    "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/$version/SHA512SUMS"
+                }
+            },
+            "32bit": {
+                "url": "https://download.mozilla.org/?product=thunderbird-$version-SSL&os=win&lang=pl#/thunderbird-setup.7z",
+                "hash": {
+                    "find": "([a-fA-F0-9]{128})\\s+(?:win32/pl/Thunderbird Setup ([\\d.]+).exe)",
+                    "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/$version/SHA512SUMS"
+                }
+            }
+        }
+    }
+}
