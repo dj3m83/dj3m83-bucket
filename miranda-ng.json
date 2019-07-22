@@ -16,5 +16,9 @@
     "homepage": "",
     "hash": "",
     "bin": "Miranda64.exe",
+    "shortcuts": [
+        "Miranda64.exe",
+        "Miranda NG"
+    ],
     "persist": "Profiles"
 }
