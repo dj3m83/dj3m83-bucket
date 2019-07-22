@@ -1,0 +1,10 @@
+﻿{
+    "version":  "2.5.322.10",
+    "license":  "",
+    "extract_dir":  "",
+    "url":  "http://downloads.pdf-xchange.com/PDFX_Vwr_Port.zip",
+    "depends":  "",
+    "homepage":  "https://www.tracker-software.com/product/pdf-xchange-viewer/",
+    "hash":  "",
+    "bin":  "PDFXCview.exe"
+}
