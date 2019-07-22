@@ -1,0 +1,10 @@
+﻿{
+    "version":  "2.1.0",
+    "license":  "",
+    "extract_dir":  "",
+    "url":  "https://www.revouninstaller.com/download-free-portable.php#/revo-uninstaller.7z",
+    "depends":  "",
+    "homepage":  "https://www.revouninstaller.com/products/revo-uninstaller-free/",
+    "hash":  "",
+    "bin":  "RevoUninstaller_Portable\\RevoUPort.exe"
+}
