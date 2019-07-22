@@ -1,0 +1,20 @@
+﻿{
+    "version": "0.95.10.2",
+    "license": "",
+    "extract_dir": "",
+    "url": [
+        "https://www.miranda-ng.org/distr/stable/miranda-ng-v0.95.10.2_x64.7z",
+        "https://www.miranda-ng.org/distr/stable/x64/Plugins/skypeweb.zip",
+        "https://www.miranda-ng.org/distr/stable/x64/Plugins/mirotr.zip",
+        "https://www.miranda-ng.org/distr/stable/x64/Plugins/historypp.zip",
+        "https://www.miranda-ng.org/distr/stable/x64/Plugins/smileyadd.zip",
+        "https://www.miranda-ng.org/distr/stable/x64/Plugins/spellchecker.zip",
+        "https://www.miranda-ng.org/distr/stable/x64/Plugins/secureim.zip",
+        "https://www.miranda-ng.org/distr/stable/x64/Languages/langpack_polish.zip"
+    ],
+    "depends": "",
+    "homepage": "",
+    "hash": "",
+    "bin": "Miranda64.exe",
+    "persist": "Profiles"
+}

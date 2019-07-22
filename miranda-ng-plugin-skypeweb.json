@@ -1,0 +1,10 @@
+﻿{
+    "version":  "",
+    "license":  "",
+    "extract_dir":  "",
+    "url":  "https://www.miranda-ng.org/distr/stable/x64/Plugins/skypeweb.zip",
+    "depends":  "miranda-ng",
+    "homepage":  "",
+    "hash":  "",
+    "bin":  ""
+}
