@@ -23,7 +23,7 @@
     ],
     "checkver": {
         "url": "https://www.mozilla.org/pl/thunderbird/all/",
-        "re": "thunderbird-([\\d.]+)-SSL&os=win&lang=pl"
+        "regex": "thunderbird-([\\d.]+)-SSL&os=win64&lang=pl"
     },
     "autoupdate": {
         "architecture": {
