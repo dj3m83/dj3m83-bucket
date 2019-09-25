@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://download.mozilla.org/?product=thunderbird-68.1.0-SSL&os=win64&lang=pl#/thunderbird-setup_x64.7z",
-            "hash": "sha512:654941acd4268b6576a232117effacfca7ffbad4bc1e9be1b9a369e00411f4fe327ce57870f2996d385eb967b91958a3f977be0aa15e4d93835317f37b685627"
+            "hash": "sha512:18a09dce7ddbf99c0ae2cf3ad03b722dd4dbb64ae4caa78ab826c9dd1ced936549ee6e85167340d47a34d2d1e182d2e42b597f5e4fdd355e8da1a4ef7e4d3fbc"
         },
         "32bit": {
             "url": "https://download.mozilla.org/?product=thunderbird-68.1.0-SSL&os=win&lang=pl#/thunderbird-setup.7z",
-            "hash": "sha512:c344ee6dfe56c737bf9e2552c9129e329f0f100a465849ae3e67f489eb0cd27c3b5f0cf4fbeb00cabbc4cfb4b66ae1add53eda498a14e743c0b8f84ea8bb11e5"
+            "hash": "sha512:02a45bcf059d1c75a910a7325bb8c1621fe32149912b7e02135d3ab57bf9abfe9776c2914cdf1b7cdcec10a1342c636525564fc070024dac0c694247764ed65b"
         }
     },
     "extract_dir": "core",
