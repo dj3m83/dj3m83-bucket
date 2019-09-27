@@ -1,0 +1,21 @@
+{
+    "homepage": "https://sourceforge.net/projects/autotypesearch/",
+    "description": "KeePass plugin  to provide a quick searching capability as an enhancement to the global auto-type system. ",
+    "license": "MIT",
+    "version": "v1.0",
+    "url": "https://downloads.sourceforge.net/project/autotypesearch/v1.0/AutoTypeSearch-v1.0.zip",
+    "depends": "extras/keepass",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/autotypesearch/rss?path=/",
+        "re": "AutoTypeSearch-(v[\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/autotypesearch/$version/AutoTypeSearch-$version.zip"
+    },
+    "installer": {
+        "script": "Expand-Archive \"$dir\\AutoTypeSearch-$version.zip\" \"$(appdir keepass $global)\\current\\Plugins\" -Removal"
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"$(appdir keepass $global)\\current\\Plugins\\AutoTypeSearch.plgx\""
+    }
+}
