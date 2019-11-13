@@ -1,16 +1,16 @@
 {
     "description": "Thunderbird is a free email application that’s easy to set up and customize - and it’s loaded with great features!",
     "homepage": "https://www.mozilla.org/pl/thunderbird/",
-    "version": "68.2.1",
+    "version": "68.2.2",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.mozilla.org/?product=thunderbird-68.2.1-SSL&os=win64&lang=pl#/thunderbird-setup_x64.7z",
-            "hash": "sha512:8e72ab5589aec9afd2223298da7a88a516098bbce7c8b52e9327b9214262afa9c824a4fec01af7806c2e5588acdf533322138a3cc23573a160434b7f9abd40d2"
+            "url": "https://download.mozilla.org/?product=thunderbird-68.2.2-SSL&os=win64&lang=pl#/thunderbird-setup_x64.7z",
+            "hash": "sha512:28da6d46bc6c93953c1e8a09b21b9244bd72ca82a66213d94ce438c214d6ca55437d688e3a10172d092ed74a283494e4f93e8efad46ebcd0d096197b8dccd4c0"
         },
         "32bit": {
-            "url": "https://download.mozilla.org/?product=thunderbird-68.2.1-SSL&os=win&lang=pl#/thunderbird-setup.7z",
-            "hash": "sha512:653f7b2287a26d37b02c60dd18580891bc0fdafb0aeb437f2e313a9fe33290fc8dd269176fe026b9d72d0303d14150477aae406eef0a8e0162b9b39510d20832"
+            "url": "https://download.mozilla.org/?product=thunderbird-68.2.2-SSL&os=win&lang=pl#/thunderbird-setup.7z",
+            "hash": "sha512:8e4071bb4de87e0d7cd22ca58c22e68530b3b6a01826854f8d3b5cfe9169dcce0f0fd00891a0bbacdb9e423207d8ff8c183740f9bd11d4a82c2e0783169f0382"
         }
     },
     "extract_dir": "core",
