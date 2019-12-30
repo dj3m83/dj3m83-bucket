@@ -2,9 +2,9 @@
     "homepage": "https://github.com/KoenZomers/KeePassOneDriveSync",
     "description": "KeePass plugin that allows syncing of multiple password databases from multiple OneDrives to a local version.",
     "license": "MIT",
-    "version": "2.1.0.0",
-    "url": "https://github.com/KoenZomers/KeePassOneDriveSync/releases/download/2.1.0.0/KeeOneDriveSync.plgx#/KeeOneDriveSync.plgx",
-    "hash": "b42dcbb4fb9836a21d2a6e5f9f44d4125bb8d1d37fef7090197d7e75b54ce0c9",
+    "version": "2.1.1.0",
+    "url": "https://github.com/KoenZomers/KeePassOneDriveSync/releases/download/2.1.1.0/KeeOneDriveSync.plgx#/KeeOneDriveSync.plgx",
+    "hash": "22562ad9ee0db5747b5c3ed59e2fbbee18dbdca4457d92a4a411fe815d92ac2c",
     "depends": "extras/keepass",
     "checkver": "github",
     "autoupdate": {
