@@ -14,3 +14,4 @@ jobs:
         GITH_EMAIL: djembe@o2.pl
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
+        ACCESS_TOKEN: ${{ secrets.ACCESS_KEY }}
